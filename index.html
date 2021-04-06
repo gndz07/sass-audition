@@ -6,25 +6,38 @@
   <title>Front End Audition</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="stylesheet" href="https://use.typekit.net/xct7iba.css">
   <link rel="stylesheet" href="dist/audition.css">
-
+  <script src="https://kit.fontawesome.com/6b2f05754f.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="container">
+  <div class="container mt-4">
 
     <div class="row">
       <div class="col">
         <section>
-          <div>
-            <p>Great! Your registry is published and ready to be shared.</p>
-            <a href="/">Share</a>
-            <a href="/">Preview</a>
-            <a href="/">Edit</a>
+          <div class="d-lg-flex">
+            <p class="message text-center w-75 mx-auto mb-3 d-lg-none">
+              <span class="font-weight-bold">Great!</span>
+               Your registry is published and ready to be shared.
+            </p>
+            <p class="desktop-message d-none d-lg-block">
+              <i class="fas fa-exclamation mr-2"></i>
+              <span class="font-weight-bold">You're almost there!</span>
+              <a href="#" class="text-decoration-underline">Add payment settings</a> and you're ready to share.
+            </p>
+
+            <div class="btn-group-vertical btn-group mx-auto" role="group">
+              <button type="button" class="btn btn-link btn-primary mb-3 font-weight-bold py-2 d-lg-none">Share</button>
+              <button type="button" class="btn btn-link btn-primary mb-3 font-weight-bold py-2 d-none d-lg-block">Add payment</button>
+              <button type="button" class="btn btn-link btn-primary mb-3 font-weight-bold py-2">Preview</button>
+              <button type="button" class="btn btn-link btn-primary mb-3 font-weight-bold py-2">Edit</button>
+            </div>
+
           </div>
         </section>
       </div>
