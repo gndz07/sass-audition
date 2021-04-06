@@ -9123,3 +9123,48 @@ a.text-dark:focus {
   }
 }
 
+body {
+  font-family: muli, sans-serif;
+}
+
+.btn-group {
+  width: 100%;
+}
+
+.btn-primary {
+  border-width: 2px;
+  border-radius: 5px !important;
+}
+
+.btn-primary:hover {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+  .btn-group {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .btn-primary {
+    width: 30% !important;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .fa-exclamation {
+    background-color: #fd7e14;
+    padding: 0.8em 1em;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-group {
+    width: 45%;
+  }
+}
+
